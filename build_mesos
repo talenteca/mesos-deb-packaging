@@ -501,6 +501,9 @@ function configure_opts {
      [[ $(vercomp "$version" 0.21.0) == '=' ]]
   then options+=" --enable-optimize"
   fi
+  if [[ "$linux" == centos/8* ]]
+  then options+=" --with-boost=/usr/include/boost"
+  fi
 
   # Pass on any configure flags to Mesos configure script.
   options+=" $configure_flags"
