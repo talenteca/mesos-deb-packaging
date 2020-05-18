@@ -8,7 +8,7 @@ Apache Mesos is a cluster manager that provides efficient resource isolation and
 
 # Centos 8
 ```bash
-sudo yum install git ruby ruby-devel autoconf automake make cyrus-sasl cyrus-sasl-md5 cyrus-sasl-devel python2-devel java-11-openjdk libcurl libcurl-devel libtool apr-util apr-devel maven subversion subversion-devel zlib zlib-devel libevent-devel patch gcc gcc-c++
+sudo yum install git ruby ruby-devel autoconf automake make cyrus-sasl cyrus-sasl-md5 cyrus-sasl-devel python2-devel java-11-openjdk libcurl libcurl-devel libtool apr-util apr-devel maven subversion subversion-devel zlib zlib-devel libevent-devel patch gcc gcc-c++ boost-devel
 sudo gem install fpm
 ```
 
